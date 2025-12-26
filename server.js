@@ -28,7 +28,8 @@ app.use("/api/auth", authRoutes);
 ================================ */
 
 // frontend/dist path
-const frontendPath = path.join(__dirname, "../frontend/dist");
+const frontendPath = path.join(__dirname, "frontend/dist");
+
 
 // serve static files
 app.use(express.static(frontendPath));
